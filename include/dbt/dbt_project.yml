@@ -1,0 +1,9 @@
+# dbt_project.yml
+# this file describes the dbt project
+name: 'retail'
+
+profile: 'retail'    # we want to use tthis profile as mentioned in the profiles.yml
+
+models:             # models is nothing but the file with the SQL requests to transform the data
+  retail:
+    materialized: table     # all the transformations are materialized in the BIg Query

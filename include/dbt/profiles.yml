@@ -1,0 +1,14 @@
+# profiles.yml
+# this profiles consists of targets and the targets specifies a connection to the warehouse in this case its BIG QUERY
+retail:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      keyfile: /usr/local/airflow/include/gcp/service_account.json
+      project: airtube-390719
+      dataset: retail
+      threads: 1
+      timeout_seconds: 300
+      location: US

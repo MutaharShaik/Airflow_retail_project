@@ -1,0 +1,13 @@
+# goal of this file is to specifies the tables from which the transformations will use the data
+# sources.yml
+version: 2
+
+sources:
+  - name: retail
+    database: airtube-390719 # Put the project id!  --> Big Query--> projects
+
+    tables:
+      - name: raw_invoices
+      - name: country
+
+
