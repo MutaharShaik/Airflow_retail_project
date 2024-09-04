@@ -73,7 +73,11 @@ resources:
 Data Engineer Project: An end-to-end Airflow data pipeline with BigQuery, dbt Soda, and more!
 Data with Marc
 https://registry.astronomer.io/providers/apache-airflow-providers-google/versions/10.14.0/modules/LocalFilesystemToGCSOperator
+
 https://astro-sdk-python.readthedocs.io/en/stable/astro/sql/operators/load_file.html
+
 https://docs.soda.io/soda-cl/soda-cl-overview.html
+
 https://astronomer.github.io/astronomer-cosmos/
+
 https://www.youtube.com/watch?v=DzxtCxi4YaA&t=2562s
